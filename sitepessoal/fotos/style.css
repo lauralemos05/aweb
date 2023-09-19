@@ -1,9 +1,18 @@
 /* Estilo para o corpo da página */
-body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    margin: 0;
-    padding: 0;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
 }
+
+body {
+   
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* Estilo para a seção do meio */
 #meio {
@@ -27,7 +36,7 @@ img {
 section {
     padding: 20px;
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #7a125b;
 }
 
 /* Estilo para a tabela */
@@ -46,7 +55,7 @@ table, th, td {
 /* Estilo para os links */
 a {
     text-decoration: none;
-    color: rgb(0, 183, 255);
+    color: pink(0, 183, 255);
 }
 
 a:hover {
@@ -60,7 +69,7 @@ ul {
 }
 
 li {
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 /* Estilo para a seção de redes sociais */
