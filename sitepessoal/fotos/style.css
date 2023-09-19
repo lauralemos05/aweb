@@ -12,9 +12,9 @@ body {
 
 /* Estilo para a imagem */
 img {
-    display: block;
+    display: border-radius;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 /* Estilo para os títulos */
