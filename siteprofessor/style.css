@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(170, 25,25);
     height: 32vh;
     color: white;
     text-align: center;
@@ -16,18 +16,18 @@ header {
 
 section {
     list-style-type: armenian;
-    padding: 10;
+    padding: 100px;
 }
 
 section{
     display: underline;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 section {
     background-color:white(153, 0, 255);
     text-decoration: navajowhite;
-    color: rgb(80, 0, 228); 
+    color: rgb(29, 12, 59); 
 }
 
 nav a:hover {
@@ -47,7 +47,7 @@ section {
 }
 
 #formação {
-    background-color: rgb(189, 144, 159);
+    background-color: rgb(170, 25, 25);
     padding: 10px;
     text-align: center;
     margin: 10px;
@@ -57,7 +57,7 @@ section {
 }
 
 .formação {
-   background-color: rgb(189, 144, 159);
+   background-color: rgb(170, 25, 25);
     flex-basis: calc(50% - 30px);
     margin: 10px;
     text-align: center
@@ -77,7 +77,7 @@ table {
 }
 
 table, th, td {
-    border: 3px solid #e6075cd0;
+    border: 3px solid #180d0d;
 }
 
 th, td {
@@ -86,7 +86,7 @@ th, td {
 }
 
 th {
-    background-color: #b84283;
+    background-color:black;
     color: white;
 }
 
@@ -96,14 +96,14 @@ th {
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(170, 25, 25);
     color: white;
     text-align: center;
     padding: 5px;
 }
 
 footer a {
-    color:red;
+    color:rgb(170, 25, 25);
     text-decoration: none;
 }
 
