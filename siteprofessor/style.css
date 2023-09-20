@@ -58,7 +58,6 @@ section {
 
 .formação {
    background-color: rgb(170, 25, 25);
-    flex-basis: calc(50% - 30px);
     margin: 10px;
     text-align: center
 }
@@ -71,13 +70,18 @@ section {
     display: flex;
 }
 
+
 table {
     border-collapse: collapse;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+     
 }
 
 table, th, td {
-    border: 3px solid #180d0d;
+    border: 0px solid #180d0d;
 }
 
 th, td {
